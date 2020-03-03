@@ -106,17 +106,22 @@ li{
 	display: inline-block;
 }
 
-input, label, textarea{
+input, label, textarea, select{
 	display: inline-block;
 	width: 100%;
 	box-sizing: border-box;
 }
 
-input, textarea{
+input, textarea, select{
 	background-color: #ccc;
 	padding: 15px;
 	border-radius: 4px;
 	border: 2px solid transparent;
+    margin-bottom: 15px;
+}
+
+input[type="radio"], input[type="checkbox"]{
+    width: auto;
 }
 
 input:focus, textarea:focus{
