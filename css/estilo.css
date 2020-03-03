@@ -162,6 +162,10 @@ input:focus, textarea:focus{
 	margin-top: 20px;
 }
 
+.image-link{
+    border: 0;
+}
+
 table{
 	width: 100%;
 	margin: 0 0 2em;
@@ -241,11 +245,26 @@ table tr:nth-child(even) td{
 
 .main-content-section{
 	margin-bottom: 50px;
+    clear: both;
+}
+
+.recent-works-card{
+    float: left;
+    width: 50%;
+}
+
+.row .recent-works-card:last-child img{
+    float: right;
+}
+
+.row .recent-works-card:last-child p{
+
 }
 
 /*Grid*/
 .row{
 	overflow: auto;
+    width: 100%;
 }
 
 .col-2{
